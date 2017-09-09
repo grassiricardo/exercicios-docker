@@ -1,2 +1,2 @@
-FROM nginix:lastest
-RUN echo '<h1>Hello World!</h1>' > /usr/share/nginix/html/index.html
+FROM nginx:latest
+RUN echo '<h1>Hello World!</h1>' > /usr/share/nginx/html/index.html
